@@ -1,0 +1,9 @@
+C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\bin\Release\Email.dll
+C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\bin\Release\Email.pdb
+C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\bin\Release\Email.xml
+C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\obj\Release\Email.vbprojResolveAssemblyReference.cache
+C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\obj\Release\Email.Resources.resources
+C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\obj\Release\Email.vbproj.GenerateResource.Cache
+C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\obj\Release\Email.dll
+C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\obj\Release\Email.xml
+C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\obj\Release\Email.pdb
