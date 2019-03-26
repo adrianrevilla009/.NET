@@ -46,7 +46,7 @@
         <br />
         <br />
         <asp:Button ID="Button1" runat="server" Text="Cambiar contraseña" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button2" runat="server" Text="Volver a inicio" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button2" runat="server" Text="Volver a inicio" CausesValidation="False" />
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
         <asp:Label ID="Label1" runat="server"></asp:Label>
     

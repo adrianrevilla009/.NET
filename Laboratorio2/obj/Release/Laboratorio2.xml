@@ -6,9 +6,54 @@ Laboratorio2
 </name>
 </assembly>
 <members>
+<member name="F:Laboratorio2.Alumno._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Alumno._HyperLink1">
+<summary>
+Control HyperLink1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Alumno._Button1">
+<summary>
+Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Alumno._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Laboratorio2.Aplicacion._form1">
 <summary>
-control form1.
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Cabecera._Button1">
+<summary>
+Control Button1.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -276,6 +321,258 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Laboratorio2.InsertarTarea._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._Button1">
+<summary>
+Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._TextBox1">
+<summary>
+Control TextBox1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._TextBox2">
+<summary>
+Control TextBox2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._RequiredFieldValidator2">
+<summary>
+Control RequiredFieldValidator2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._DropDownList1">
+<summary>
+Control DropDownList1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._RequiredFieldValidator3">
+<summary>
+Control RequiredFieldValidator3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._TextBox3">
+<summary>
+Control TextBox3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._RequiredFieldValidator4">
+<summary>
+Control RequiredFieldValidator4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._RegularExpressionValidator1">
+<summary>
+Control RegularExpressionValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._DropDownList2">
+<summary>
+Control DropDownList2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._RequiredFieldValidator5">
+<summary>
+Control RequiredFieldValidator5.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._Button2">
+<summary>
+Control Button2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InsertarTarea._HyperLink1">
+<summary>
+Control HyperLink1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InstanciarTarea._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InstanciarTarea._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InstanciarTarea._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InstanciarTarea._Label3">
+<summary>
+Control Label3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InstanciarTarea._TextBox1">
+<summary>
+Control TextBox1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InstanciarTarea._Button1">
+<summary>
+Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InstanciarTarea._RequiredFieldValidator1">
+<summary>
+Control RequiredFieldValidator1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InstanciarTarea._HyperLink1">
+<summary>
+Control HyperLink1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InstanciarTarea._Label4">
+<summary>
+Control Label4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.InstanciarTarea._GridView1">
+<summary>
+Control GridView1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="T:Laboratorio2.My.MyWebExtension">
  <summary>
  Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
@@ -373,6 +670,105 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Laboratorio2.WebForm1._Label2">
 <summary>
 Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Profesor._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Profesor._HyperLink1">
+<summary>
+Control HyperLink1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Profesor._Button1">
+<summary>
+Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Profesor._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Proyecto._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Proyecto._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Proyecto._Button1">
+<summary>
+Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Proyecto._DropDownList1">
+<summary>
+Control DropDownList1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Proyecto._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Proyecto._GridView1">
+<summary>
+Control GridView1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Proyecto._Label3">
+<summary>
+Control Label3.
 </summary>
 <remarks>
 Campo generado automáticamente.
@@ -535,6 +931,87 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:Laboratorio2.Registro._Label1">
 <summary>
 Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.TareasProfesor._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.TareasProfesor._Button1">
+<summary>
+Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.TareasProfesor._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.TareasProfesor._HyperLink1">
+<summary>
+Control HyperLink1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.TareasProfesor._DropDownList1">
+<summary>
+Control DropDownList1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.TareasProfesor._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.TareasProfesor._Button2">
+<summary>
+Control Button2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.TareasProfesor._GridView1">
+<summary>
+Control GridView1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.TareasProfesor._SqlDataSource2">
+<summary>
+Control SqlDataSource2.
 </summary>
 <remarks>
 Campo generado automáticamente.

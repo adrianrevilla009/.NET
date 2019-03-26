@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tareas xmlns:has="http://ji.ehu.es/has">
+  <tarea codigo="1212">
+    <descripcion>asda</descripcion>
+    <hestimadas>2</hestimadas>
+    <explotacion>False</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="232">
+    <descripcion>pepe</descripcion>
+    <hestimadas>2</hestimadas>
+    <explotacion>False</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="344334">
+    <descripcion>232332</descripcion>
+    <hestimadas>2332</hestimadas>
+    <explotacion>False</explotacion>
+    <tipotarea>Laboratorio</tipotarea>
+  </tarea>
+  <tarea codigo="EDA07-Ej1">
+    <descripcion>Ejercicio sobre listas ligadas</descripcion>
+    <hestimadas>3</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Ejercicio</tipotarea>
+  </tarea>
+  <tarea codigo="EDA13">
+    <descripcion>examen</descripcion>
+    <hestimadas>12</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="EX-123">
+    <descripcion>examen</descripcion>
+    <hestimadas>3</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="juanpedro">
+    <descripcion>juanpedro</descripcion>
+    <hestimadas>1</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="juanpedro2">
+    <descripcion>juanpedro2</descripcion>
+    <hestimadas>1</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="juanpedro3">
+    <descripcion>juanpedro3</descripcion>
+    <hestimadas>1</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="juanpedro4">
+    <descripcion>juanpedro4</descripcion>
+    <hestimadas>1</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="prueb3">
+    <descripcion>asdas</descripcion>
+    <hestimadas>2</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="prueba1">
+    <descripcion>prueba1</descripcion>
+    <hestimadas>1</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Trabajo</tipotarea>
+  </tarea>
+  <tarea codigo="prueba4">
+    <descripcion>asdasdas</descripcion>
+    <hestimadas>4</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="prueba5">
+    <descripcion>adasdadsas</descripcion>
+    <hestimadas>45</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+</tareas>

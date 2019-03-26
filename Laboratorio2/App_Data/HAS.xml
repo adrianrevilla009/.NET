@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tareas xmlns:has="http://ji.ehu.es/has">
+  <tarea codigo="23">
+    <descripcion>pepe1</descripcion>
+    <hestimadas>12</hestimadas>
+    <explotacion>False</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="2324">
+    <descripcion>assda</descripcion>
+    <hestimadas>23</hestimadas>
+    <explotacion>False</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="34">
+    <descripcion>asdads</descripcion>
+    <hestimadas>22</hestimadas>
+    <explotacion>False</explotacion>
+    <tipotarea>Trabajo</tipotarea>
+  </tarea>
+  <tarea codigo="GIS-Lab4">
+    <descripcion>ddfdfdf</descripcion>
+    <hestimadas>6</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Laboratorio</tipotarea>
+  </tarea>
+  <tarea codigo="has">
+    <descripcion>has</descripcion>
+    <hestimadas>1</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="HAS08-Lab10">
+    <descripcion>aaaa</descripcion>
+    <hestimadas>10</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Laboratorio</tipotarea>
+  </tarea>
+  <tarea codigo="HAS08-Lab12">
+    <descripcion>Laboratorio 12 de la asignatura</descripcion>
+    <hestimadas>12</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Laboratorio</tipotarea>
+  </tarea>
+  <tarea codigo="HAS08-Test5">
+    <descripcion>Test 5 de la asignatura</descripcion>
+    <hestimadas>3</hestimadas>
+    <explotacion>False</explotacion>
+    <tipotarea>examen</tipotarea>
+  </tarea>
+  <tarea codigo="HAS11-LAB4">
+    <descripcion>lalalalal</descripcion>
+    <hestimadas>20</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Laboratorio</tipotarea>
+  </tarea>
+  <tarea codigo="HAS18-Lab4">
+    <descripcion>Laboratorio 12</descripcion>
+    <hestimadas>12</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Laboratorio</tipotarea>
+  </tarea>
+  <tarea codigo="HAS18-Test1">
+    <descripcion>Test 5 de la asignatura</descripcion>
+    <hestimadas>1</hestimadas>
+    <explotacion>False</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="juanpedro5">
+    <descripcion>juanpedro5</descripcion>
+    <hestimadas>1</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="juanpedro6">
+    <descripcion>juanpedro6</descripcion>
+    <hestimadas>1</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="Lab4">
+    <descripcion>lelelelelelelel</descripcion>
+    <hestimadas>12</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Laboratorio</tipotarea>
+  </tarea>
+  <tarea codigo="prueba2">
+    <descripcion>prueba2</descripcion>
+    <hestimadas>1</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Ejercicio</tipotarea>
+  </tarea>
+  <tarea codigo="prueba56">
+    <descripcion>asdasda</descripcion>
+    <hestimadas>6</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="Test1">
+    <descripcion>10 preguntas ....</descripcion>
+    <hestimadas>1</hestimadas>
+    <explotacion>False</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="trtrtrtrrtrtr">
+    <descripcion>trtrrtrtrtrtrt</descripcion>
+    <hestimadas>5</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+</tareas>

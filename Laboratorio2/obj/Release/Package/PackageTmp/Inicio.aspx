@@ -10,11 +10,10 @@
 <body>
     <form id="form1" runat="server">
     <div>
-    
-        <asp:Label ID="Label1" runat="server" Text="BIENVENIDOS AL PROYECTO 2 DE HADS"></asp:Label>
+        <h1>
+        <asp:Label ID="Label1" runat="server" Text="PROYECTO HADS" ForeColor="Lime"></asp:Label>
         <br />
-        <br />
-    
+        </h1>
     </div>
         <asp:Button ID="Button2" runat="server" Text="Cambiar contraseña" />
         <p>
@@ -28,7 +27,7 @@
         </p>
         <p>
             Password:&nbsp;&nbsp;&nbsp;
-            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <asp:TextBox ID="TextBox2" runat="server" TextMode="Password"></asp:TextBox>
         </p>
         <div style="margin-left: 40px">
             <asp:Button ID="Button3" runat="server" Text="Login" />

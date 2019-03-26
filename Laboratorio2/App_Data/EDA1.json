@@ -1,0 +1,114 @@
+[
+  {
+    "Codigo": "1212",
+    "Descripcion": "asda",
+    "CodAsig": "EDA1",
+    "HEstimadas": 2,
+    "Explotacion": false,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "232",
+    "Descripcion": "pepe",
+    "CodAsig": "EDA1",
+    "HEstimadas": 2,
+    "Explotacion": false,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "344334",
+    "Descripcion": "232332",
+    "CodAsig": "EDA1",
+    "HEstimadas": 2332,
+    "Explotacion": false,
+    "TipoTarea": "Laboratorio"
+  },
+  {
+    "Codigo": "EDA07-Ej1",
+    "Descripcion": "Ejercicio sobre listas ligadas",
+    "CodAsig": "EDA1",
+    "HEstimadas": 3,
+    "Explotacion": true,
+    "TipoTarea": "Ejercicio"
+  },
+  {
+    "Codigo": "EDA13",
+    "Descripcion": "examen",
+    "CodAsig": "EDA1",
+    "HEstimadas": 12,
+    "Explotacion": true,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "EX-123",
+    "Descripcion": "examen",
+    "CodAsig": "EDA1",
+    "HEstimadas": 3,
+    "Explotacion": true,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "juanpedro",
+    "Descripcion": "juanpedro",
+    "CodAsig": "EDA1",
+    "HEstimadas": 1,
+    "Explotacion": true,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "juanpedro2",
+    "Descripcion": "juanpedro2",
+    "CodAsig": "EDA1",
+    "HEstimadas": 1,
+    "Explotacion": true,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "juanpedro3",
+    "Descripcion": "juanpedro3",
+    "CodAsig": "EDA1",
+    "HEstimadas": 1,
+    "Explotacion": true,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "juanpedro4",
+    "Descripcion": "juanpedro4",
+    "CodAsig": "EDA1",
+    "HEstimadas": 1,
+    "Explotacion": true,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "prueb3",
+    "Descripcion": "asdas",
+    "CodAsig": "EDA1",
+    "HEstimadas": 2,
+    "Explotacion": true,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "prueba1",
+    "Descripcion": "prueba1",
+    "CodAsig": "EDA1",
+    "HEstimadas": 1,
+    "Explotacion": true,
+    "TipoTarea": "Trabajo"
+  },
+  {
+    "Codigo": "prueba4",
+    "Descripcion": "asdasdas",
+    "CodAsig": "EDA1",
+    "HEstimadas": 4,
+    "Explotacion": true,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "prueba5",
+    "Descripcion": "adasdadsas",
+    "CodAsig": "EDA1",
+    "HEstimadas": 45,
+    "Explotacion": true,
+    "TipoTarea": "Examen"
+  }
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "Codigo": "23",
+    "Descripcion": "pepe1",
+    "CodAsig": "HAS",
+    "HEstimadas": 12,
+    "Explotacion": false,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "2324",
+    "Descripcion": "assda",
+    "CodAsig": "HAS",
+    "HEstimadas": 23,
+    "Explotacion": false,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "34",
+    "Descripcion": "asdads",
+    "CodAsig": "HAS",
+    "HEstimadas": 22,
+    "Explotacion": false,
+    "TipoTarea": "Trabajo"
+  },
+  {
+    "Codigo": "GIS-Lab4",
+    "Descripcion": "ddfdfdf",
+    "CodAsig": "HAS",
+    "HEstimadas": 6,
+    "Explotacion": true,
+    "TipoTarea": "Laboratorio"
+  },
+  {
+    "Codigo": "has",
+    "Descripcion": "has",
+    "CodAsig": "HAS",
+    "HEstimadas": 1,
+    "Explotacion": true,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "HAS08-Lab10",
+    "Descripcion": "aaaa",
+    "CodAsig": "HAS",
+    "HEstimadas": 10,
+    "Explotacion": true,
+    "TipoTarea": "Laboratorio"
+  },
+  {
+    "Codigo": "HAS08-Lab12",
+    "Descripcion": "Laboratorio 12 de la asignatura",
+    "CodAsig": "HAS",
+    "HEstimadas": 12,
+    "Explotacion": true,
+    "TipoTarea": "Laboratorio"
+  },
+  {
+    "Codigo": "HAS08-Test5",
+    "Descripcion": "Test 5 de la asignatura",
+    "CodAsig": "HAS",
+    "HEstimadas": 3,
+    "Explotacion": false,
+    "TipoTarea": "examen"
+  },
+  {
+    "Codigo": "HAS11-LAB4",
+    "Descripcion": "lalalalal",
+    "CodAsig": "HAS",
+    "HEstimadas": 20,
+    "Explotacion": true,
+    "TipoTarea": "Laboratorio"
+  },
+  {
+    "Codigo": "HAS18-Lab4",
+    "Descripcion": "Laboratorio 12",
+    "CodAsig": "HAS",
+    "HEstimadas": 12,
+    "Explotacion": true,
+    "TipoTarea": "Laboratorio"
+  },
+  {
+    "Codigo": "HAS18-Test1",
+    "Descripcion": "Test 5 de la asignatura",
+    "CodAsig": "HAS",
+    "HEstimadas": 1,
+    "Explotacion": false,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "juanpedro5",
+    "Descripcion": "juanpedro5",
+    "CodAsig": "HAS",
+    "HEstimadas": 1,
+    "Explotacion": true,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "juanpedro6",
+    "Descripcion": "juanpedro6",
+    "CodAsig": "HAS",
+    "HEstimadas": 1,
+    "Explotacion": true,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "Lab4",
+    "Descripcion": "lelelelelelelel",
+    "CodAsig": "HAS",
+    "HEstimadas": 12,
+    "Explotacion": true,
+    "TipoTarea": "Laboratorio"
+  },
+  {
+    "Codigo": "prueba2",
+    "Descripcion": "prueba2",
+    "CodAsig": "HAS",
+    "HEstimadas": 1,
+    "Explotacion": true,
+    "TipoTarea": "Ejercicio"
+  },
+  {
+    "Codigo": "prueba56",
+    "Descripcion": "asdasda",
+    "CodAsig": "HAS",
+    "HEstimadas": 6,
+    "Explotacion": true,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "Test1",
+    "Descripcion": "10 preguntas ....",
+    "CodAsig": "HAS",
+    "HEstimadas": 1,
+    "Explotacion": false,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "trtrtrtrrtrtr",
+    "Descripcion": "trtrrtrtrtrtrt",
+    "CodAsig": "HAS",
+    "HEstimadas": 5,
+    "Explotacion": true,
+    "TipoTarea": "Examen"
+  }
+]

@@ -1,2 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<parameters />
+<parameters>
+  <parameter name="HADS18-REVILLAConnectionString-Web.config Connection String" description="HADS18-REVILLAConnectionString Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Data Source=tcp:hads18-revilla.database.windows.net,1433;Initial Catalog=HADS18-REVILLA;Persist Security Info=True;User ID=Revilla@hads18-revilla;Password=ADRI2606rev" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\adria\\OneDrive\\Documentos\\Visual\ Studio\ 2015\\Projects\\Laboratorio2\\Laboratorio2\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='HADS18-REVILLAConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

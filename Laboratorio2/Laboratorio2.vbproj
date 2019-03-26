@@ -77,6 +77,10 @@
       <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -120,10 +124,15 @@
   <ItemGroup>
     <Content Include="Alumno.aspx" />
     <Content Include="Aplicacion.aspx" />
+    <Content Include="App_Data\HAS.xml" />
+    <Content Include="App_Data\SEG.xml" />
+    <Content Include="App_Data\XSLTFile.xsl" />
     <Content Include="Cabecera.ascx" />
     <Content Include="Cambiar.aspx" />
     <Content Include="Confirmar.aspx" />
+    <Content Include="ExportarTareas.aspx" />
     <Content Include="Global.asax" />
+    <Content Include="ImportarTareas.aspx" />
     <Content Include="InsertarTarea.aspx" />
     <Content Include="InstanciarTarea.aspx" />
     <Content Include="Profesor.aspx" />
@@ -172,8 +181,22 @@
       <DependentUpon>Confirmar.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="ExportarTareas.aspx.designer.vb">
+      <DependentUpon>ExportarTareas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ExportarTareas.aspx.vb">
+      <DependentUpon>ExportarTareas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="ImportarTareas.aspx.designer.vb">
+      <DependentUpon>ImportarTareas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ImportarTareas.aspx.vb">
+      <DependentUpon>ImportarTareas.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="InsertarTarea.aspx.designer.vb">
       <DependentUpon>InsertarTarea.aspx</DependentUpon>
@@ -256,6 +279,9 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <None Include="App_Data\tareas.xsd">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
