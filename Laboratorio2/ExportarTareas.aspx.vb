@@ -24,6 +24,11 @@ Public Class ExportarTareas
 
     End Sub
 
+    Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Session.Abandon()
+        Response.Redirect("Inicio.aspx")
+    End Sub
+
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         DataSet2 = Session("setTareasProfeExport")
         tabla2 = DataSet2.Tables("TareasProfe")

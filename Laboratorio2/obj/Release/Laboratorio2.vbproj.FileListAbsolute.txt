@@ -38,3 +38,6 @@ C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Labo
 C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Laboratorio2\obj\Release\Laboratorio2.dll
 C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Laboratorio2\obj\Release\Laboratorio2.xml
 C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Laboratorio2\obj\Release\Laboratorio2.pdb
+C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Laboratorio2\bin\Newtonsoft.Json.dll
+C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Laboratorio2\bin\Newtonsoft.Json.pdb
+C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Laboratorio2\bin\Newtonsoft.Json.xml

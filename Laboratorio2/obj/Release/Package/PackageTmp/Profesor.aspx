@@ -23,6 +23,12 @@
         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/TareasProfesor.aspx">Tareas</asp:HyperLink>
         <br />
         <br />
+        <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/ImportarTareas.aspx">Importar y XML Document</asp:HyperLink>
+        <br />
+        <br />
+        <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/ExportarTareas.aspx">Exportar</asp:HyperLink>
+        <br />
+        <br />
         <asp:Button ID="Button1" runat="server" Text="Logout" />
         <br />
     
