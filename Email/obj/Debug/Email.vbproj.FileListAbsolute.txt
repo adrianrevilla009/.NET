@@ -1,8 +1,6 @@
 C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\bin\Debug\Email.dll
 C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\bin\Debug\Email.pdb
 C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\bin\Debug\Email.xml
-C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\bin\Debug\Email.dll.CodeAnalysisLog.xml
-C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\bin\Debug\Email.dll.lastcodeanalysissucceeded
 C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\obj\Debug\Email.vbprojResolveAssemblyReference.cache
 C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\obj\Debug\Email.Resources.resources
 C:\Users\adria\OneDrive\Documentos\Visual Studio 2015\Projects\Laboratorio2\Email\obj\Debug\Email.vbproj.GenerateResource.Cache

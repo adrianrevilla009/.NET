@@ -122,7 +122,9 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Alumno.aspx" />
+    <Content Include="Administrador\Administrador.aspx" />
+    <Content Include="Administrador\MostrarUsuarios.aspx" />
+    <Content Include="Alumnos\Alumno.aspx" />
     <Content Include="Aplicacion.aspx" />
     <Content Include="App_Data\HAS.xml" />
     <Content Include="App_Data\SEG.xml" />
@@ -130,26 +132,40 @@
     <Content Include="Cabecera.ascx" />
     <Content Include="Cambiar.aspx" />
     <Content Include="Confirmar.aspx" />
-    <Content Include="ExportarTareas.aspx" />
+    <Content Include="Profesores\ImportarExportar\ExportarTareas.aspx" />
     <Content Include="Global.asax" />
-    <Content Include="ImportarTareas.aspx" />
-    <Content Include="InsertarTarea.aspx" />
-    <Content Include="InstanciarTarea.aspx" />
-    <Content Include="Profesor.aspx" />
+    <Content Include="Profesores\ImportarExportar\ImportarTareas.aspx" />
+    <Content Include="Profesores\InsertarTarea.aspx" />
+    <Content Include="Alumnos\InstanciarTarea.aspx" />
+    <Content Include="Profesores\Profesor.aspx" />
     <Content Include="StyleSheet1.css" />
-    <Content Include="TareasAlumno.aspx" />
+    <Content Include="Alumnos\TareasAlumno.aspx" />
     <Content Include="Registro.aspx" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
-    <Content Include="TareasProfesor.aspx" />
+    <Content Include="Profesores\TareasProfesor.aspx" />
     <Content Include="Web.config" />
     <Content Include="Inicio.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alumno.aspx.designer.vb">
+    <Compile Include="Administrador\Administrador.aspx.designer.vb">
+      <DependentUpon>Administrador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\Administrador.aspx.vb">
+      <DependentUpon>Administrador.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Administrador\MostrarUsuarios.aspx.designer.vb">
+      <DependentUpon>MostrarUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Administrador\MostrarUsuarios.aspx.vb">
+      <DependentUpon>MostrarUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Alumnos\Alumno.aspx.designer.vb">
       <DependentUpon>Alumno.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Alumno.aspx.vb">
+    <Compile Include="Alumnos\Alumno.aspx.vb">
       <DependentUpon>Alumno.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
@@ -181,34 +197,34 @@
       <DependentUpon>Confirmar.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="ExportarTareas.aspx.designer.vb">
+    <Compile Include="Profesores\ImportarExportar\ExportarTareas.aspx.designer.vb">
       <DependentUpon>ExportarTareas.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ExportarTareas.aspx.vb">
+    <Compile Include="Profesores\ImportarExportar\ExportarTareas.aspx.vb">
       <DependentUpon>ExportarTareas.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="ImportarTareas.aspx.designer.vb">
+    <Compile Include="Profesores\ImportarExportar\ImportarTareas.aspx.designer.vb">
       <DependentUpon>ImportarTareas.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ImportarTareas.aspx.vb">
+    <Compile Include="Profesores\ImportarExportar\ImportarTareas.aspx.vb">
       <DependentUpon>ImportarTareas.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="InsertarTarea.aspx.designer.vb">
+    <Compile Include="Profesores\InsertarTarea.aspx.designer.vb">
       <DependentUpon>InsertarTarea.aspx</DependentUpon>
     </Compile>
-    <Compile Include="InsertarTarea.aspx.vb">
+    <Compile Include="Profesores\InsertarTarea.aspx.vb">
       <DependentUpon>InsertarTarea.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="InstanciarTarea.aspx.designer.vb">
+    <Compile Include="Alumnos\InstanciarTarea.aspx.designer.vb">
       <DependentUpon>InstanciarTarea.aspx</DependentUpon>
     </Compile>
-    <Compile Include="InstanciarTarea.aspx.vb">
+    <Compile Include="Alumnos\InstanciarTarea.aspx.vb">
       <DependentUpon>InstanciarTarea.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
@@ -238,17 +254,17 @@
       <DependentUpon>Inicio.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="Profesor.aspx.designer.vb">
+    <Compile Include="Profesores\Profesor.aspx.designer.vb">
       <DependentUpon>Profesor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Profesor.aspx.vb">
+    <Compile Include="Profesores\Profesor.aspx.vb">
       <DependentUpon>Profesor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="TareasAlumno.aspx.designer.vb">
+    <Compile Include="Alumnos\TareasAlumno.aspx.designer.vb">
       <DependentUpon>TareasAlumno.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TareasAlumno.aspx.vb">
+    <Compile Include="Alumnos\TareasAlumno.aspx.vb">
       <DependentUpon>TareasAlumno.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
@@ -259,10 +275,10 @@
       <DependentUpon>Registro.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
-    <Compile Include="TareasProfesor.aspx.designer.vb">
+    <Compile Include="Profesores\TareasProfesor.aspx.designer.vb">
       <DependentUpon>TareasProfesor.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TareasProfesor.aspx.vb">
+    <Compile Include="Profesores\TareasProfesor.aspx.vb">
       <DependentUpon>TareasProfesor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
@@ -279,6 +295,8 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Alumnos\Web.config" />
+    <Content Include="Administrador\Web.config" />
     <None Include="App_Data\tareas.xsd">
       <SubType>Designer</SubType>
     </None>
@@ -294,6 +312,8 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <Content Include="packages.config" />
+    <Content Include="Profesores\Web.config" />
+    <Content Include="Profesores\ImportarExportar\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

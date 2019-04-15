@@ -3,6 +3,7 @@
 Public Class WebForm1
     Inherits System.Web.UI.Page
 
+
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
     End Sub
@@ -30,20 +31,46 @@ Public Class WebForm1
         If RecordCount = 1 Then
             Label2.Text = "LOGIN CORRECTO"
             Session("email") = email
+            If email = "admin@ehu.es" And pass = "admin" Then
+                'para el administrador no hacemos control de aplicacion
+                FormsAuthentication.SetAuthCookie("Administrador", True)
+                Response.Redirect("Administrador/Administrador.aspx")
+            End If
             If tipo.Equals("Alumno") Then
-                Response.Redirect("Alumno.aspx")
+                'añadimos un alumno
+                Application.Lock()
+                Dim ListBox1 As ListBox = Application.Contents("listaAlumnos")
+                ListBox1.Items.Add(email)
+                ListBox1.DataBind()
+                Application.Contents("listaAlumnos") = ListBox1
+                Application.UnLock()
+                Session("tipo") = "Alumno"
+
+                FormsAuthentication.SetAuthCookie("Alumno", True)
+                Response.Redirect("Alumnos/Alumno.aspx")
             Else
-                Response.Redirect("Profesor.aspx")
+                'añadimos un profesor
+                Application.Lock()
+                Dim ListBox2 As ListBox = Application.Contents("listaProfesores")
+                ListBox2.Items.Add(email)
+                ListBox2.DataBind()
+                Application.Contents("listaProfesores") = ListBox2
+                Application.UnLock()
+                Session("tipo") = "Profesor"
+
+                If email = "vadillo@ehu.es" Then
+                    FormsAuthentication.SetAuthCookie("Vadillo", True)
+                    Response.Redirect("Profesores/Profesor.aspx")
+                Else
+                    FormsAuthentication.SetAuthCookie("Profesor", True)
+                    Response.Redirect("Profesores/Profesor.aspx")
+                End If
             End If
         ElseIf RecordCount > 1 Then
             Label2.Text = "LOGIN NO CORRECTO. USUARIO REPLICADO"
         Else
             Label2.Text = "LOGIN NO CORRECTO. NO EXISTE EL USUARIO"
         End If
-
         mensaje1 = bd.cerrar()
-
     End Sub
-
-
 End Class

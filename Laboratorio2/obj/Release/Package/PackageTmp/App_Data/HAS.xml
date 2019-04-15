@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <tareas xmlns:has="http://ji.ehu.es/has">
+  <tarea codigo="123132">
+    <descripcion>12312331</descripcion>
+    <hestimadas>12</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Laboratorio</tipotarea>
+  </tarea>
   <tarea codigo="23">
     <descripcion>pepe1</descripcion>
     <hestimadas>12</hestimadas>
@@ -93,6 +99,12 @@
   <tarea codigo="prueba56">
     <descripcion>asdasda</descripcion>
     <hestimadas>6</hestimadas>
+    <explotacion>True</explotacion>
+    <tipotarea>Examen</tipotarea>
+  </tarea>
+  <tarea codigo="TAREAPRUEBA5">
+    <descripcion>TAREAPRUEBA5</descripcion>
+    <hestimadas>2</hestimadas>
     <explotacion>True</explotacion>
     <tipotarea>Examen</tipotarea>
   </tarea>

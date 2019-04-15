@@ -5,17 +5,13 @@ Imports System.Web.SessionState
     Inherits System.Web.HttpApplication
 
     Sub Application_Start(ByVal sender As Object, ByVal e As EventArgs)
-        ' Se desencadena al iniciar la aplicación
-        Application.Contents("numeroConectados") = 0
+        Dim listaAlumnos As New ListBox
+        Dim listaProfesores As New ListBox
+        Application.Contents("listaAlumnos") = listaAlumnos
+        Application.Contents("listaProfesores") = listaProfesores
     End Sub
 
     Sub Session_Start(ByVal sender As Object, ByVal e As EventArgs)
-        ' Se desencadena al iniciar la sesión
-        Application.Lock()
-        Dim NS As Integer = Application.Contents("numeroConectados")
-        NS = Application.Contents("numeroConectados") + 1
-        Application.Contents("numeroConectados") = NS
-        Application.UnLock()
 
     End Sub
 
@@ -32,16 +28,26 @@ Imports System.Web.SessionState
     End Sub
 
     Sub Session_End(ByVal sender As Object, ByVal e As EventArgs)
-        ' Se desencadena cuando finaliza la sesión
-        Application.Lock()
-        Dim NS As Integer = Application.Contents("numeroConectados")
-        NS = Application.Contents("numeroConectados") - 1
-        Application.Contents("numeroConectados") = NS
-        Application.UnLock()
+        Dim email = Session("email")
+        If Session("tipo") = "Alumno" Then
+            Application.Lock()
+            Dim listaAlumnos As ListBox = Application.Contents("listaAlumnos")
+            listaAlumnos.Items.Remove(email)
+            Application.Contents("listaAlumnos") = listaAlumnos
+            Application.UnLock()
+        ElseIf Session("tipo") = "Profesor" Then
+            Application.Lock()
+            Dim listaProfesores As ListBox = Application.Contents("listaProfesores")
+            listaProfesores.Items.Remove(email)
+            Application.Contents("listaProfesores") = listaProfesores
+            Application.UnLock()
+        End If
+
     End Sub
 
     Sub Application_End(ByVal sender As Object, ByVal e As EventArgs)
         ' Se desencadena cuando finaliza la aplicación
+
     End Sub
 
 End Class

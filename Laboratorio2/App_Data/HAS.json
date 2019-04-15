@@ -1,5 +1,13 @@
 [
   {
+    "Codigo": "123132",
+    "Descripcion": "12312331",
+    "CodAsig": "HAS",
+    "HEstimadas": 12,
+    "Explotacion": true,
+    "TipoTarea": "Laboratorio"
+  },
+  {
     "Codigo": "23",
     "Descripcion": "pepe1",
     "CodAsig": "HAS",
@@ -124,6 +132,14 @@
     "Descripcion": "asdasda",
     "CodAsig": "HAS",
     "HEstimadas": 6,
+    "Explotacion": true,
+    "TipoTarea": "Examen"
+  },
+  {
+    "Codigo": "TAREAPRUEBA5",
+    "Descripcion": "TAREAPRUEBA5",
+    "CodAsig": "HAS",
+    "HEstimadas": 2,
     "Explotacion": true,
     "TipoTarea": "Examen"
   },

@@ -1,6 +1,7 @@
 ﻿Public Class Registro
     Inherits System.Web.UI.Page
 
+
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
 
     End Sub
@@ -39,6 +40,9 @@
         Else
 
             usuarios = bd.contar()
+            'AQUI VA LA FUNCIÓN HASH
+
+
 
             bd.insertar(nombre, apellido, password, emailDestino, radio, NumConf2, confirmado, codpass)
             usuarios2 = bd.contarRegistrados()

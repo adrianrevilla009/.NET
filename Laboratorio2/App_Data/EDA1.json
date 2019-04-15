@@ -48,6 +48,14 @@
     "TipoTarea": "Examen"
   },
   {
+    "Codigo": "gimnasio",
+    "Descripcion": "gimnasio",
+    "CodAsig": "EDA1",
+    "HEstimadas": 2,
+    "Explotacion": true,
+    "TipoTarea": "Trabajo"
+  },
+  {
     "Codigo": "juanpedro",
     "Descripcion": "juanpedro",
     "CodAsig": "EDA1",
