@@ -29,6 +29,9 @@
         <asp:HyperLink ID="HyperLink3" runat="server" NavigateUrl="~/Profesores/ImportarExportar/ExportarTareas.aspx">Exportar</asp:HyperLink>
         <br />
         <br />
+        <asp:HyperLink ID="HyperLink4" runat="server" NavigateUrl="~/Profesores/Coordinador.aspx">Coordinador</asp:HyperLink>
+        <br />
+        <br />
         <asp:Button ID="Button1" runat="server" Text="Logout" />
         <br />
     
@@ -52,6 +55,9 @@
     
     </div>
 
+        <br />
+        <br />
+    
         <br />
         <br />
     

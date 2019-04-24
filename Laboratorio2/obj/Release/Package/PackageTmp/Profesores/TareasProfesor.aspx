@@ -23,9 +23,13 @@
             Cookie registrada:&nbsp;&nbsp;&nbsp; &nbsp;<asp:Label ID="Label2" runat="server"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         </p>
-
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
         <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Profesores/Profesor.aspx">Pagina anterior</asp:HyperLink>
-        <br />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <h1 style="width: 171px; margin-left: 191px">CON AJAX</h1>
         <br />
         <asp:DropDownList ID="DropDownList1" runat="server" DataSourceID="SqlDataSource1" DataTextField="codigo" DataValueField="codigo" AutoPostBack="True">
         </asp:DropDownList>
@@ -60,6 +64,12 @@
                 <asp:SessionParameter Name="email" SessionField="email" />
             </SelectParameters>
         </asp:SqlDataSource>
+                <br />
+
+            </ContentTemplate>
+        </asp:UpdatePanel>
+        
+        <br />
 
     </form>
 </body>

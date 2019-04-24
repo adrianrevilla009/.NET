@@ -58,7 +58,24 @@
     </div>
     
     </div>
+ <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+    <p>
+        Usuarios logeados:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Alumnos:<asp:Label ID="Label3" runat="server"></asp:Label>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Profesores:<asp:Label ID="Label4" runat="server"></asp:Label>
+    </p>
 
+                <asp:Timer ID="Timer1" runat="server" Interval="2000">
+                </asp:Timer>
+
+                <asp:ListBox ID="ListBox1" runat="server" AutoPostBack="True" BackColor="Aqua" Font-Bold="True"></asp:ListBox>
+                <asp:ListBox ID="ListBox2" runat="server" AutoPostBack="True" BackColor="Fuchsia" Font-Bold="True"></asp:ListBox>
+                <br />
+        </ContentTemplate>
+        </asp:UpdatePanel>
     </form>
+    
 </body>
 </html>

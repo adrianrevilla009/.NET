@@ -492,6 +492,78 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Laboratorio2.Coordinador._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Coordinador._Button1">
+<summary>
+Control Button1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Coordinador._Label1">
+<summary>
+Control Label1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Coordinador._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Coordinador._DropDownList1">
+<summary>
+Control DropDownList1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Coordinador._SqlDataSource1">
+<summary>
+Control SqlDataSource1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Coordinador._Button2">
+<summary>
+Control Button2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:Laboratorio2.Coordinador._Label3">
+<summary>
+Control Label3.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Laboratorio2.ExportarTareas._form1">
 <summary>
 Control form1.
@@ -1072,6 +1144,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Laboratorio2.Profesor._HyperLink4">
+<summary>
+Control HyperLink4.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Laboratorio2.Profesor._Button1">
 <summary>
 Control Button1.
@@ -1396,6 +1477,15 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
+<member name="F:Laboratorio2.Registro._Label2">
+<summary>
+Control Label2.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:Laboratorio2.TareasProfesor._form1">
 <summary>
 Control form1.
@@ -1503,6 +1593,66 @@ Control SqlDataSource2.
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
+</member>
+<member name="T:Laboratorio2.matriculas.Matriculas">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.matriculas.Matriculas.#ctor">
+<remarks/>
+</member>
+<member name="E:Laboratorio2.matriculas.Matriculas.comprobarCompleted">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.matriculas.Matriculas.comprobar(System.String)">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.matriculas.Matriculas.comprobarAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.matriculas.Matriculas.comprobarAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.matriculas.Matriculas.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Laboratorio2.matriculas.comprobarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Laboratorio2.matriculas.comprobarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Laboratorio2.matriculas.comprobarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:Laboratorio2.obtenerHoras.ServicioCoordinador">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.obtenerHoras.ServicioCoordinador.#ctor">
+<remarks/>
+</member>
+<member name="E:Laboratorio2.obtenerHoras.ServicioCoordinador.numeroHorasCompleted">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.obtenerHoras.ServicioCoordinador.numeroHoras(System.String)">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.obtenerHoras.ServicioCoordinador.numeroHorasAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.obtenerHoras.ServicioCoordinador.numeroHorasAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:Laboratorio2.obtenerHoras.ServicioCoordinador.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:Laboratorio2.obtenerHoras.numeroHorasCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:Laboratorio2.obtenerHoras.numeroHorasCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:Laboratorio2.obtenerHoras.numeroHorasCompletedEventArgs.Result">
+<remarks/>
 </member>
 </members>
 </doc>

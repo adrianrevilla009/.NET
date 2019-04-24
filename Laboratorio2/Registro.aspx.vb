@@ -33,42 +33,41 @@
 
         mensajeConexion = bd.conectar()
 
-        Dim int As Integer
-        int = bd.correoRepetido(emailDestino)
-        If int >= 1 Then
-            Label1.Text = "CORREO REPETIDO, INTENTALO DE NUEVO"
-        Else
+        'Dim int As Integer
+        'Int = bd.correoRepetido(emailDestino)
+        'If int >= 1 Then
+        'Label1.Text = "CORREO REPETIDO, INTENTALO DE NUEVO"
+        'Else
 
-            usuarios = bd.contar()
+        usuarios = bd.contar()
             'AQUI VA LA FUNCIÓN HASH
 
+            Dim mat As New matriculas.Matriculas
+            Dim resp As String
+            resp = mat.comprobar(emailDestino)
+            If resp.Equals("SI") Then
+                bd.insertar(nombre, apellido, password, emailDestino, radio, NumConf2, confirmado, codpass)
+                usuarios2 = bd.contarRegistrados()
 
+                mensajeConexion2 = bd.cerrar()
 
-            bd.insertar(nombre, apellido, password, emailDestino, radio, NumConf2, confirmado, codpass)
-            usuarios2 = bd.contarRegistrados()
-
-            mensajeConexion2 = bd.cerrar()
-
-            msg = "http://localhost:49782/Confirmar.aspx?mensaje1=" & mensajeConexion & "&numero=" & NumConf & "&mensaje2=" & mensajeConexion2 & "&usuarios=" & usuarios & "&usuarios2=" & usuarios2 & "&email=" & emailDestino
+                msg = "http://localhost:49782/Confirmar.aspx?mensaje1=" & mensajeConexion & "&numero=" & NumConf & "&mensaje2=" & mensajeConexion2 & "&usuarios=" & usuarios & "&usuarios2=" & usuarios2 & "&email=" & emailDestino
             'Response.Redirect("Confirmar.aspx?mensaje1=" & mensajeConexion & "&numero=" & NumConf & "&mensaje2=" & mensajeConexion2 & "&usuarios=" & usuarios & "&usuarios2=" & usuarios2 & "&email=" & emailDestino)
 
             enviado = email.enviarEmail(NumConf, emailDestino, msg)
+            Label2.Text = "SERVICIO WEB / REGISTRADO, ERES VIP"
             If enviado = True Then
-                Label1.Text = "CORREO DE CONFIRMACION ENVIADO"
-                Response.Redirect("Inicio.aspx")
+                    Label1.Text = "CORREO DE CONFIRMACION ENVIADO"
+                    Response.Redirect("Inicio.aspx")
+                Else
+                    Label1.Text = "CORREO DE CONFIRMACION NO ENVIADO"
+                End If
             Else
-                Label1.Text = "CORREO DE CONFIRMACION NO ENVIADO"
-            End If
-
+            Label2.Text = "SERVICIO WEB / NO REGISTRADO, NO ERES VIP"
         End If
+        'End If
 
         bd.cerrar()
-
-
-
-
-
-
     End Sub
 
     Protected Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click

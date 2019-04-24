@@ -132,6 +132,7 @@
     <Content Include="Cabecera.ascx" />
     <Content Include="Cambiar.aspx" />
     <Content Include="Confirmar.aspx" />
+    <Content Include="Profesores\Coordinador.aspx" />
     <Content Include="Profesores\ImportarExportar\ExportarTareas.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Profesores\ImportarExportar\ImportarTareas.aspx" />
@@ -144,6 +145,11 @@
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Profesores\TareasProfesor.aspx" />
+    <Content Include="Web References\obtenerHoras\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </Content>
+    <None Include="Web References\obtenerHoras\ServicioCoordinador.disco" />
     <Content Include="Web.config" />
     <Content Include="Inicio.aspx" />
   </ItemGroup>
@@ -195,6 +201,13 @@
     </Compile>
     <Compile Include="Confirmar.aspx.vb">
       <DependentUpon>Confirmar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Profesores\Coordinador.aspx.designer.vb">
+      <DependentUpon>Coordinador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profesores\Coordinador.aspx.vb">
+      <DependentUpon>Coordinador.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Profesores\ImportarExportar\ExportarTareas.aspx.designer.vb">
@@ -282,6 +295,16 @@
       <DependentUpon>TareasProfesor.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
+    <Compile Include="Web References\matriculas\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\obtenerHoras\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -314,6 +337,12 @@
     <Content Include="packages.config" />
     <Content Include="Profesores\Web.config" />
     <Content Include="Profesores\ImportarExportar\Web.config" />
+    <None Include="Web References\matriculas\comprobarmatricula.wsdl" />
+    <Content Include="Web References\matriculas\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </Content>
+    <None Include="Web References\obtenerHoras\ServicioCoordinador.wsdl" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -326,6 +355,36 @@
       <Project>{fbfeb1d5-57a6-4978-9112-f7ecaa3ad7d1}</Project>
       <Name>Email</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://ehusw.es/jav/ServiciosWeb/comprobarmatricula.php%3fwsdl">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\matriculas\</RelPath>
+      <UpdateFromURL>http://ehusw.es/jav/ServiciosWeb/comprobarmatricula.php%3fwsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Laboratorio2_matriculas_Matriculas</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://hads18-revilla2.azurewebsites.net/ServicioCoordinador.asmx%3fop=numeroHoras">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\obtenerHoras\</RelPath>
+      <UpdateFromURL>http://hads18-revilla2.azurewebsites.net/ServicioCoordinador.asmx%3fop=numeroHoras</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>MySettings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Laboratorio2_obtenerHoras_ServicioCoordinador</CachedSettingsPropName>
+    </WebReferenceUrl>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

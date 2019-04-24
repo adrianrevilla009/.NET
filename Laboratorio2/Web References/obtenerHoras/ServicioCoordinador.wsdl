@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="numeroHoras">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="codigo" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="numeroHorasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="numeroHorasResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="numeroHorasSoapIn">
+    <wsdl:part name="parameters" element="tns:numeroHoras" />
+  </wsdl:message>
+  <wsdl:message name="numeroHorasSoapOut">
+    <wsdl:part name="parameters" element="tns:numeroHorasResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServicioCoordinadorSoap">
+    <wsdl:operation name="numeroHoras">
+      <wsdl:input message="tns:numeroHorasSoapIn" />
+      <wsdl:output message="tns:numeroHorasSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServicioCoordinadorSoap" type="tns:ServicioCoordinadorSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="numeroHoras">
+      <soap:operation soapAction="http://tempuri.org/numeroHoras" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServicioCoordinadorSoap12" type="tns:ServicioCoordinadorSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="numeroHoras">
+      <soap12:operation soapAction="http://tempuri.org/numeroHoras" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicioCoordinador">
+    <wsdl:port name="ServicioCoordinadorSoap" binding="tns:ServicioCoordinadorSoap">
+      <soap:address location="http://hads18-revilla2.azurewebsites.net/ServicioCoordinador.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServicioCoordinadorSoap12" binding="tns:ServicioCoordinadorSoap12">
+      <soap12:address location="http://hads18-revilla2.azurewebsites.net/ServicioCoordinador.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
